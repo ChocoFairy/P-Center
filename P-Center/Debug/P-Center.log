@@ -1,0 +1,34 @@
+﻿libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReport
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReport
+main.obj : error LNK2001: 无法解析的外部符号 __CrtDbgReport
+Solution.obj : error LNK2001: 无法解析的外部符号 __CrtDbgReport
+libcpmtd.lib(xonce.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReport
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReport
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __calloc_dbg
+Solution.obj : error LNK2001: 无法解析的外部符号 __calloc_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2001: 无法解析的外部符号 __calloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __calloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __calloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 __free_dbg，函数 "public: __thiscall std::collate<unsigned short>::collate<unsigned short>(class std::_Locinfo const &,unsigned int)" (??0?$collate@G@std@@QAE@ABV_Locinfo@1@I@Z) 中引用了该符号
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+Solution.obj : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 __malloc_dbg，函数 __unwindfunclet$??0?$collate@G@std@@QAE@ABV_Locinfo@1@I@Z$0 中引用了该符号
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+Solution.obj : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 __wcsdup_dbg，函数 __Getctype 中引用了该符号
+libcpmtd.lib(xstrcoll.obj) : error LNK2001: 无法解析的外部符号 __wcsdup_dbg
+libcpmtd.lib(locale.obj) : error LNK2019: 无法解析的外部符号 __realloc_dbg，函数 "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z) 中引用了该符号
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2019: 无法解析的外部符号 __CrtDbgReportW，函数 __freea_crt 中引用了该符号
+libcpmtd.lib(xmbtowc.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+D:\Mine\保研\保研复习\题目\P-Center\Debug\P-Center.exe : fatal error LNK1120: 7 个无法解析的外部命令

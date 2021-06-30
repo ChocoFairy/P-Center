@@ -139,9 +139,19 @@ void SolveStruct::Solve(int limit_s, int rand_seed)
     this->limit_s = limit_s;
     srand(rand_seed);
     Greedy();//Ì°ĞÄ
+
     int iter;
     int last_uncovered_num = INT_MAX, best_uncovered_num = uncovered_num;
     int v_open, v_close;
+
+    if (uncovered_num == 0 && (clock() - start_ms) / 1000 < limit_s)//¸üĞÂ
+    {
+        end_ms = clock();
+        tempiter = 0;
+        tempnum = uncovered_num;
+        OutputFile();
+        return;
+    }
     for (iter = 1; uncovered_num != 0 && (clock() - start_ms) / 1000 < limit_s; ++iter)
     {
         FindSwap(v_open, v_close);
